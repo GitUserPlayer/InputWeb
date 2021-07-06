@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -7,16 +7,6 @@
     <title>InputWebGL</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <style>
-        @media only screen and (orientation: portrait)
-        {
-           body
-           {
-               height: 100vw;
-               transform: rotate(90deg);
-           }
-        }
-    </style>
   </head>
   <body class="dark">
     <div id="unity-container" class="unity-desktop">
@@ -35,11 +25,11 @@
     <script>
       const hideFullScreenButton = "";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebGL_InputTest.loader.js";
+      const loaderUrl = buildUrl + "/lotteryWeb.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebGL_InputTest.data",
-        frameworkUrl: buildUrl + "/WebGL_InputTest.framework.js",
-        codeUrl: buildUrl + "/WebGL_InputTest.wasm",
+        dataUrl: buildUrl + "/lotteryWeb.data",
+        frameworkUrl: buildUrl + "/lotteryWeb.framework.js",
+        codeUrl: buildUrl + "/lotteryWeb.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "InputWebGL",
